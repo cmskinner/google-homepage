@@ -3,13 +3,26 @@ img {
 	margin-top: 12.5em;
 	margin-bottom: 1.75em;
 }
-.footer {
-	width: 700px;
-	height: 50px;
-	background-color: #CCCCCC;
-	position: absolute;
+footer {
+	width: 1925px;
+	height: 40px;
+	background-color: #F2F2F2;
+	position: fixed;
+	margin-top: 560px;
+	margin-left: -10px;
+	border: 1px solid #D9D9D9;
+	display: inline-block;
 }
 input {
 	width: 600px;
 	height: 33px;
+	border-color: blue;
+	border-width:1px;
+	background-image: url("http://i.imgur.com/l5S4LZ2.png");
+ 	background-position: right center;
+  	background-repeat: no-repeat;
+  	background-size: 26px 26px;
+}
+.leftfooter {
+	float: left;
 }
